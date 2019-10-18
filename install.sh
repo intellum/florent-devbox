@@ -14,4 +14,8 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ~/.fzf/install --key-bindings --completion --no-update-rc
 
+sudo snap install ripgrep --classic
+
+mkdir -p ~/.local/share/nvim/site/pack/git-plugins/start
+
 cp -RTs $PWD/home $HOME
