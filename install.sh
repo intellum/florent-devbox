@@ -6,6 +6,8 @@ cd ~/exceed && gem install ghi
 
 sudo apt-get install -y neovim
 
+sudo apt-get install -y exuberant-ctags
+
 git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
