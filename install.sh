@@ -22,4 +22,8 @@ sudo snap install ripgrep --classic
 
 mkdir -p ~/.local/share/nvim/site/pack/git-plugins/start
 
+git config --global user.name "Florent"
+
+git config --global user.email "fguilleux@intellum.com"
+
 cp -RTs $PWD/home $HOME
