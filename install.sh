@@ -27,4 +27,10 @@ git config --global user.name "Florent"
 
 git config --global user.email "fguilleux@intellum.com"
 
+git config --global commit.template ~/.gitmessage
+
+cd /usr/local/bin
+sudo curl -O https://raw.githubusercontent.com/bilgi-webteam/kommit/master/bin/git-kommit
+sudo chmod +x git-kommit
+
 cp -RTs $PWD/home $HOME
