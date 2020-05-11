@@ -31,5 +31,6 @@ sudo curl -O https://raw.githubusercontent.com/bilgi-webteam/kommit/master/bin/g
 sudo chmod +x git-kommit
 
 sudo chsh -s $(which zsh) ubuntu
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
 cp -RTs $PWD/home $HOME
