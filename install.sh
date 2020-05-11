@@ -1,6 +1,8 @@
 sudo add-apt-repository -y ppa:neovim-ppa/stable
 sudo apt-get update
 
+sudo apt install zsh
+
 sudo snap install hub --classic
 
 cd ~/exceed && gem install ghi
@@ -8,10 +10,6 @@ cd ~/exceed && gem install ghi
 sudo apt-get install -y neovim
 
 sudo apt-get install -y exuberant-ctags
-
-git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
-
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -31,5 +29,7 @@ git config --global push.default current
 cd /usr/local/bin
 sudo curl -O https://raw.githubusercontent.com/bilgi-webteam/kommit/master/bin/git-kommit
 sudo chmod +x git-kommit
+
+sudo chsh -s $(which zsh) ubuntu
 
 cp -RTs $PWD/home $HOME
